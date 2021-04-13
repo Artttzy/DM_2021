@@ -95,7 +95,7 @@ print()
 print("m) ", list(edge_kcomponents.bridge_components(G)))
 print()
 
-# o)
+# o) MST
 MST=nx.Graph(mst.minimum_spanning_tree(G))
 print("o) MST = ", MST.nodes)
 print("Weight =", sum(c for (a,b,c) in (MST.edges.data('weight'))))
