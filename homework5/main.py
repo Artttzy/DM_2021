@@ -1,5 +1,4 @@
 import networkx as nx
-import matplotlib.pyplot as plt
 from networkx.algorithms.approximation import clique
 from networkx.algorithms.approximation import independent_set
 from networkx.algorithms.approximation import vertex_cover
